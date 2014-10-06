@@ -1,0 +1,27 @@
+#page-3 {
+	z-index: 3000;
+}
+
+#page-3 .step-1,
+#page-3 .step-2 {
+	display:none;
+}
+
+#p3a1,
+#p3a2 {
+	position: absolute;
+	z-index: 99999999;
+	display: block;
+}
+
+#p3a1 {
+	top: 215px;
+	left: 200px;
+	padding-top: 90px;
+}
+#p3a2{
+	top: 215px;
+	left: 410px;
+	padding-top: 90px;
+}
+

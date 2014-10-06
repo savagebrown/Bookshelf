@@ -1,0 +1,246 @@
+/* @override 
+	http://towpath.wearekiller.com/Booksv3/Shared/Stylesheets/glossary.css
+	http://towpath.wearekiller.com/Bookshelf/Shared/Stylesheets/glossary.css
+	http://localhost:8888/Shared/Stylesheets/glossary.css
+*/
+
+/* @group Glossary */
+
+#page-glossary {
+    height: 500px;
+    padding: 20px;
+    position: absolute;
+    width: 800px;
+}
+
+.viewport {
+	height: 570px !important;
+}
+
+#page-glossary .viewport {
+	top: -20px;
+	border-bottom: 2px solid #555;
+	border-top: 2px solid #555;
+}
+
+#page-glossary h1 {	
+	font-size: 24px;
+	padding-bottom: 6px;
+	margin-bottom: 20px;
+}
+
+#page-glossary ul.glossary,
+#page-glossary ul.glossary li,
+#page-glossary ul.footnotes,
+#page-glossary ul.footnotes li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#page-glossary ul.glossary {
+	margin-top: 10px;
+}
+
+#page-glossary ul.glossary li,
+#page-glossary ul.footnotes li {
+	color: #555;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+#page-glossary ul.glossary li a,
+#page-glossary ul.footnotes li a {
+	color: #111;
+	text-decoration: none;
+}
+
+#page-glossary ul.glossary li a {
+	font-weight: bold;
+	color: #2bb4df;
+}
+
+#page-glossary ul.footnotes li a {
+	display: block;
+	padding: 5px;
+	padding-left: 30px;
+	border: 1px solid #ccc;
+	box-shadow: 1px 1px 2px #e2e2d6;
+	background: url(icons/arrow-right-blue.png) no-repeat 5px 6px;
+}
+
+/* @end */
+
+/* @group Closed Captioning */
+
+.cc {
+	display: none;
+}
+
+#cc-compiled-wrapper {
+	position: absolute;
+	height: 540px;
+	width: 840px;
+}
+
+#cc-compiled {
+	padding: 20px;
+	height: 492px;
+	color: #333;
+}
+
+#cc-compiled .viewport {
+	top: -20px;
+	border-bottom: 2px solid #555;
+	border-top: 2px solid #555;
+}
+
+#cc-compiled .viewport .overview {
+	margin-top: 10px;
+}
+
+#cc-compiled h1 {
+	font-size: 24px;
+	color: #333;
+	margin-bottom: 10px;
+	background: url(icons/print-light.png) no-repeat right top;
+}
+
+#cc-compiled .cc-group {
+	margin-bottom: 10px;
+	
+}
+
+#cc-compiled .cc-group h1 {
+	font-size: 18px;
+	background: none;
+	color: #333;
+	padding: 0;
+	border-bottom: 2px solid #555;
+}
+
+#cc-compiled .cc-group p {
+	margin-bottom: 10px;
+	font-size: 14px;
+	line-height: 1.6em;
+}
+
+.cc-head {
+	display: none;
+}
+
+/* @end */
+
+
+
+/* @group Supplement Tabs */
+
+ul.tabs li.tab {
+	height: 650px;
+    top: 20px;
+    left: 140px;
+    position: absolute;
+    width: 840px;
+    background: none repeat scroll 0 0 white;
+    -webkit-box-shadow: 1px 1px 2px rgba(50, 50, 50, 0.85);
+	-moz-box-shadow:    1px 1px 2px rgba(50, 50, 50, 0.85);
+	box-shadow:         1px 1px 2px rgba(50, 50, 50, 0.85);
+	border-right: 7px solid #bd8d01;
+}
+
+ul.tabs li.tab-up {
+	-webkit-box-shadow: 1px 1px 30px rgba(50, 50, 50, 0.85);
+	-moz-box-shadow:    1px 1px 30px rgba(50, 50, 50, 0.85);
+	box-shadow:         1px 1px 30px rgba(50, 50, 50, 0.85);
+}
+
+
+ul.tabs li.tab h1.marker {
+	height: 108px;
+    width: 35px;
+    position: absolute;
+    right: -30px;
+    cursor: pointer;
+    background: url(Images/bg-tab-map.png) no-repeat 0 0;
+    text-indent: -55555px;
+    font-size: 1px;
+    overflow: hidden;
+}
+
+ul.tabs li.tab.map h1.marker {
+    top: 25px;	
+}
+
+ul.tabs li.tab.glossary h1.marker {
+	background-image: url(Images/bg-tab-glossary.png);
+	top: 255px;
+}
+
+ul.tabs li.tab.closed-caption h1.marker {
+	background-image: url(Images/bg-tab-text.png);
+    top: 140px;
+}
+
+ul.tabs li.tab.standards h1.marker {
+	background-image: url(Images/bg-tab-standards.png);
+    top: 370px;
+}
+
+/* @end */
+
+#standards-page {
+	width: 800px;
+	height: 500px;
+	position: absolute;
+	padding: 20px;
+}
+
+#standards-page h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
+	padding-bottom: 6px;
+}
+
+#standards .viewport {
+	border-bottom: 2px solid #555555;
+	border-top: 2px solid #555555;
+	top: -20px;
+}
+
+.sup-content {
+	margin: 10px;
+}
+
+.sup-content p {
+	margin-bottom: 10px;
+}
+
+.sup-content h1,
+.sup-content h2,
+.sup-content h3,
+.sup-content h4 {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.sup-content strong {
+	font-weight: bold;
+	color: #555;
+}
+
+.sup-content h1 {
+	font-size: 24px;
+}
+
+.sup-content h2 {
+	font-size: 20px;
+}
+
+.sup-content h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.sup-content h4 {
+	font-size: 16px;
+}

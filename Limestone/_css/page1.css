@@ -1,0 +1,119 @@
+#page-1 {
+	z-index: 5000;
+}
+
+#page-1 .step-2,
+#page-1 .step-3,
+#page-1 .step-4 {
+	display: none;
+}
+
+#page-1 .step-1 img,
+#page-1 .step-2 img,
+#page-1 .step-3 img,
+#page-1 .step-4 img {
+	position: absolute;
+}
+
+#page-1 .step-1 img {
+	height: 480px;
+    top: 10px;
+    width: 850px;
+}
+
+#page-1 .step-2 img {
+	left: 150px;
+    width: 550px;
+}
+
+#page-1 .step-3 img {
+	width: 850px;
+}
+
+#page-1 .step-4 img {
+	left: 250px;
+    top: 75px;
+    width: 350px;
+}
+
+/* @group Sea Bed */
+
+#p1a1 {
+	position: absolute;
+	z-index: 99999999;
+	display: none;
+}
+
+#p1a1-1, #p1a1-2, #p1a1-3, #p1a1-4 {
+	position: absolute;
+	z-index: 99999999;
+	display: none;
+	padding-bottom: 30px;
+}
+
+#p1a1 {
+	left: 350px;
+    top: 130px;
+}
+/* Coral Head */
+#p1a1-1 {
+	left: 40px;
+	top: 200px;
+}
+
+#p1a1-2 {
+	left: 345px;
+    top: 225px;
+}
+/* Squid: Cephalopod */
+#p1a1-3 {
+	left: 415px;
+    top: 165px;
+}
+/* Trilobite */
+#p1a1-4 {
+	left: 210px;
+    top: 220px;
+}
+
+/* @end */
+
+/* @group Coral */
+
+#p1a2,
+#p1a2-1, #p1a2-2, #p1a2-3, #p1a2-4 {
+	position: absolute;
+	z-index: 99999999;
+	display: none;
+}
+
+#p1a2 {
+	left: 525px;
+    top: 45px;
+}
+/* Tenticles */
+#p1a2-1 {
+	left: 150px;
+	top: 40px;
+	padding-left: 100px;
+}
+/* Mouth */
+#p1a2-2 {
+	left: 110px;
+    top: 90px;
+    padding-left: 125px;
+}
+/* Stomach */
+#p1a2-3 {
+	left: 108px;
+    top: 130px;
+    padding-left: 170px;
+}
+/* Limestone Cup-Shell */
+#p1a2-4 {
+	left: 180px;
+    top: 170px;
+    padding-left: 70px;
+}
+
+/* @end */

@@ -1,0 +1,35 @@
+#page-2 {
+	z-index: 4000;
+}
+
+#page-2 .step-1 img {
+	left: 43px;
+    width: 750px;
+    position: absolute;
+}
+
+/* Action Points */
+
+#p2a1,
+#p2a2,
+#p2a3 {
+	position: absolute;
+	z-index: 99999999;
+	display: block;
+}
+
+#p2a1 {
+	top: 435px;
+	left: 600px;
+	padding-top: 40px;
+}
+#p2a2 {
+	top: 320px;
+	left: 450px;
+	padding-top: 100px;
+}
+#p2a3 {
+	top: 420px;
+	left: 160px;
+	padding-right: 20px;
+}

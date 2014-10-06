@@ -1,0 +1,237 @@
+/* @override 
+	http://towpath.wearekiller.com/Bookshelf/Shared/Stylesheets/map.css */
+
+/* DEPOSIT MAP =================================*/
+
+#map-page {
+	/* z-index: 0; */
+	position: relative;
+	background: url(Images/bg-page.png) repeat right top;
+	width: 840px;
+	height: 540px;
+}
+
+#map-page #deposit-map #map-legend {
+	position: absolute;
+	left: 491px;
+	top: 20px;
+	width: 325px;
+	height: 499px;
+	margin: 0;
+	padding: 0;
+	background: #f4f3e0 url(Images/bg-legend.png) repeat 0 0;
+	color: #333;
+	border: 1px solid #ddd;
+
+}
+
+#map-page #deposit-map #map-legend li {
+	padding: 4px;
+	padding-left: ;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #fff;
+	position: relative;
+	cursor: pointer;
+}
+
+#map-page #deposit-map #map-legend li span.legend-symbol {
+	width: 17px;
+	height: 17px;
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 12px;
+	background: white;
+}
+
+#map-page #deposit-map #map-legend li.active span.legend-symbol {
+	top: 12px;
+}
+
+/* Legend item symbols */
+
+#map-page #deposit-map #map-legend li#legend-magnetite span.legend-symbol {
+	background: #83c675;
+}
+
+#map-page #deposit-map #map-legend li#legend-limonite span.legend-symbol {
+	background: #dd4390;
+}
+
+#map-page #deposit-map #map-legend li#legend-coal span.legend-symbol {
+	background: black;
+}
+
+#map-page #deposit-map #map-legend li#legend-carbonate span.legend-symbol {
+	background: #9db4aa url(Images/bg-hash.png) repeat 0 0;
+}
+
+#map-page #deposit-map #map-legend li#legend-mines span.legend-symbol {
+	background: url(Images/bg-mines.png) no-repeat 0 0;
+}
+
+#map-page #deposit-map #map-legend li#legend-slate span.legend-symbol {
+	background: #e85726;
+}
+
+#map-page #deposit-map #map-legend li#legend-geography span.legend-symbol {
+	background: url(Images/bg-mountains.png) repeat 0 0;
+	width: 26px;
+	left: 15px;
+}
+
+#map-page #deposit-map #map-legend li#legend-counties span.legend-symbol {
+	background: url(Images/bg-counties.png) repeat 0 0;
+}
+
+#map-page #deposit-map #map-legend li#legend-cities span.legend-symbol {
+	background: url(Images/bg-city.png) repeat 0 0;
+}
+
+#map-page #deposit-map #map-legend li#legend-water span.legend-symbol {
+	background: url(Images/bg-water.png) repeat 0 0;
+}
+
+
+#map-page #deposit-map #map-legend li span.legend-text {
+	display: block;
+	padding: 8px;
+	padding-left: 45px;
+	padding-right: 30px;
+}
+
+#map-page #deposit-map #map-legend li span.legend-text em {
+	color: #999;
+	font-size: 90%;
+}
+
+#map-page #deposit-map #map-legend li.active span.legend-text {
+	border-radius: 3px;
+	background: #b6c6ba url(Images/bg-legend-active.png) no-repeat 290px 50%;
+}
+
+#map-page #deposit-map #map-legend li.active span.legend-text em {
+	color: #555;
+}
+
+/* Maps turn on when equivalent legend item selected */
+
+#map-page #deposit-map #map-stage {
+	position: absolute;
+	width: 470px;
+	height: 499px;
+	border: 1px solid #ccc;
+	background: url(Images/bg-map-stage.jpg) no-repeat 0 0;
+	left: 20px;
+	top: 20px;
+}
+
+#map-page #deposit-map #map-stage div {
+	position: absolute;
+	height: 500px;
+	width: 470px;
+	display: none;
+}
+
+#map-page #deposit-map #map-stage div#map-counties {
+	display: block;
+	background: url(Images/bg-map-stage-counties.png) no-repeat 0 0;
+	z-index: 20;
+	opacity: .7;
+}
+
+#map-page #deposit-map #map-stage div#map-county-names {
+	display: block;
+	background: url(Images/bg-map-stage-counties-names.png) no-repeat 0 0;
+	z-index: 20;
+	opacity: 1;
+}
+
+#map-page #deposit-map #map-stage div#map-city-names {
+	display: block;
+	background: url(Images/bg-map-stage-cities.png) no-repeat 0 0;
+	z-index: 21;
+	left: -43px;
+    top: -29px;
+}
+
+#map-page #deposit-map #map-stage div#map-water {
+	display: block;
+	background: url(Images/bg-map-stage-water.png) no-repeat 0 0;
+	z-index: 3;
+}
+
+#map-page #deposit-map #map-stage div#map-carbonate {
+	display: block;
+	background: url(Images/bg-map-stage-carbonate.png) no-repeat 0 0;
+	z-index: 4;
+}
+
+#map-page #deposit-map #map-stage div#map-slate {
+	display: block;
+	background: url(Images/bg-map-stage-slate.png) no-repeat 0 0;
+	z-index: 5;
+}
+
+#map-page #deposit-map #map-stage div#map-magnetite {
+	display: block;
+	background: url(Images/bg-map-stage-magnetite.png) no-repeat 0 0;
+	z-index: 6;
+}
+
+#map-page #deposit-map #map-stage div#map-limonite {
+	display: block;
+	background: url(Images/bg-map-stage-limonite.png) no-repeat 0 0;
+	z-index: 7;
+}
+
+#map-page #deposit-map #map-stage div#map-coal {
+	/*display: block;*/
+	background: url(Images/bg-map-stage-coal.png) no-repeat 0 0;
+	z-index: 8;
+}
+
+#map-page #deposit-map #map-stage div#map-mines {
+	/*display: block;*/
+	background: url(Images/bg-map-stage-mines.png) no-repeat 0 0;
+	z-index: 8;
+	margin-top: -30px;
+	margin-left: -30px;
+}
+
+#map-page #deposit-map #map-stage div#map-geography {
+	/*display: block;*/
+	background: url(Images/bg-map-stage-geography.png) no-repeat 0 0;
+	z-index: 22;
+}
+
+/* Controls */
+
+#map-toggle {
+	width: 40px;
+	height: 40px;
+	background: orange url(icons/folded.png) no-repeat 50% 50%;
+	position: absolute;
+	right:-35px;
+	top: 18px;
+	cursor: pointer;
+	border-left: 4px solid #cc9900;
+}
+
+#map-toggle:hover {
+	background-image: url(icons/folded-dark.png);
+}
+
+/* Temporary */
+
+.glossary-tab {
+	width: 40px;
+	height: 40px;
+	background: red url(http://www.delawareandlehigh.org/talesofthetowpath/Bookshelf/Shared/Stylesheets/icons/notes.png) no-repeat 50% 50%;
+	position: absolute;
+	right:-35px;
+	top: 58px;
+	cursor: pointer;
+	border-left: 4px solid #cc9900;
+	display: none;
+}

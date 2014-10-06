@@ -1,0 +1,22 @@
+#page-4 {
+	z-index: 2000;
+}
+
+#page-4 .step-1 img {
+	left: 25px;
+    position: absolute;
+    top: 150px;
+    width: 800px;
+}
+
+#p4a1 div{
+	display: none;
+	position: absolute;
+}
+
+#p4a1-1 { width: 140px; left: 730px; top: 320px; padding-top: 120px; }
+#p4a1-2 { width: 100px; left: 590px; top: 340px; padding-top: 100px; }
+#p4a1-3 { width: 105px; left: 290px; top: 320px; padding-top: 120px; }
+#p4a1-4 { width: 100px; left: 410px; top: 330px; padding-top: 110px; }
+#p4a1-5 { width: 140px; left: 140px; top: 230px; padding-top: 210px; }
+#p4a1-6 { left: 360px; top: 170px; }

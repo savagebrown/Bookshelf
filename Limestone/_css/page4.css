@@ -1,0 +1,42 @@
+#page-4 {
+	z-index: 2000;
+}
+
+#page-4 .step-2 {
+	display: none;
+}
+
+#page-4 .step-1 img,
+#page-4 .step-2 img {
+	position: absolute;
+}
+
+#page-4 .step-1 img {
+	top: 100px;
+	left: 175px;
+    width: 473px;
+}
+
+#page-4 .step-2 {
+	position: absolute;
+	top: 120px;
+	left: 262px;
+}
+
+#small-map {
+	position: absolute;
+	top: 8px;
+	left: 170px;
+	width: 772px;
+	height: 538px;
+	background: url(../_images/small-map.png) no-repeat 0 0;
+	display: none;
+}
+
+/* Second Position
+#page-4 .step-1 img {
+	top: 55px;
+	left: 0px;
+    width: 300px;
+}
+*/

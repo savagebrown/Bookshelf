@@ -1,0 +1,204 @@
+
+/* import stylesheets and hide from ie/mac \*/
+@import url("reset.css");
+@import url("baseline.css");
+
+/* General
+--------------------------------------------- */
+body {
+	background: url('Images/bg.png') repeat left top;
+}
+
+h1, h2, h3, h4, h5, h6 {}
+
+p {}
+
+a {}
+a:hover {}
+
+/* Header
+--------------------------------------------- */
+header {
+	height: 161px;
+	background: #e5ded1 url(Images/bg-header.png) repeat-x 0 0;
+}
+
+header #logo {
+	background: url(Images/dlnhc-logo.png) no-repeat 10px 5px;
+	padding: 30px;
+	padding-left: 165px;
+	height: 161px;
+	margin-right: 350px;
+	position: relative;
+}
+
+header #logo span {
+	font: 4em/normal "Lucida Grande", Lucida, Verdana, sans-serif;
+	color: #7c293b;
+	text-transform: uppercase;
+}
+
+
+/* Navigation
+--------------------------------------------- */
+nav ul {
+	background: #333;
+	color: #f2f2f2;
+	position: absolute;
+	right: 50px;
+	top: 0;
+	width: 320px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+nav li {
+
+}
+nav li a,
+nav li a:visited {
+	display: block;
+	float: right;
+	margin-right: 20px;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+}
+
+nav li a:hover {
+	color: orange;
+}
+
+
+/* Main
+--------------------------------------------- */
+#main {}
+
+.shelf {
+	background: url(Images/bg-shelf.jpg) repeat-x ;
+	height: 248px;
+}
+
+.shelf h1 {
+	position: absolute;
+	left: 30px;
+	top: 181px;
+	color: #444;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 14px;
+	background-color: #e4e4e4;
+	text-align: center;
+	padding: 4px 14px 1px 18px;
+	box-shadow: 0px 0px 2px #333;
+	border-bottom: 1px solid white;
+}
+
+.shelf-inner {
+
+}
+
+.book {
+	height: 185px;
+	width: 217px;
+	margin-left: 20px;
+	margin-top: 63px;
+	background: url(../Images/cover-coal.png) no-repeat ;
+	float: left;
+	z-index: 9999;
+	display: block;
+}
+
+.book:hover {
+	cursor: pointer;
+}
+
+.book-outline {
+	height: 160px;
+	width: 280px;
+	border: 3px dotted #f2f2f2;
+	margin-left: 20px;
+	margin-top: 63px;
+	border-radius: 5px;
+	float: left;
+}
+
+#cover-coal {
+	background-image: url(../Images/cover-coal.png);
+}
+
+#cover-slate {
+	background-image: url(../Images/cover-slate.png);
+}
+
+#cover-iron {
+	background-image: url(../Images/cover-ironore.png);
+}
+
+#cover-limestone {
+	background-image: url(../Images/cover-limestone.png);
+}
+
+
+
+/* Left Column
+--------------------------------------------- */
+.left-col {}
+
+
+/* Right Column
+--------------------------------------------- */
+.right-col {}
+
+
+/* Footer
+--------------------------------------------- */
+footer {
+	background: url(Images/bg-footer.png) repeat-x;
+	padding: 60px;
+}
+
+footer a,
+footer a:visited {
+	color: #333;
+}
+
+footer a:hover {
+	color: #ac2929;
+}
+
+/* Home Page Specific
+--------------------------------------------- */
+
+
+
+
+
+
+/* Interior Page Specific
+--------------------------------------------- */
+
+
+
+
+
+
+/* Special Classes
+--------------------------------------------- */
+
+
+#book-howto-image {
+	position: absolute;
+	left: -460px;
+	top: 35px;
+	z-index: 9999;
+	display: none;
+}
+
+
+
+
+
+
+
+

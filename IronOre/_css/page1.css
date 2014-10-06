@@ -1,0 +1,53 @@
+#page-1 {
+	z-index: 4000;
+}
+
+/* Page Steps */
+#page-1 .step-1,
+#page-1 .step-2,
+#page-1 .step-3,
+#page-1 .step-4,
+#page-1 .step-5 {
+	position: absolute;
+}
+
+#page-1 .step-1  {}
+#page-1 .step-2  { display: none; }
+#page-1 .step-3  { display: none; }
+#page-1 .step-4  { display: none; }
+#page-1 .step-5  { display: none; }
+#page-1 .step-6  { display: none; }
+
+#page-1 .step-1 .image-credit {
+	position: absolute;
+	bottom: 60px;
+	right: 10px;
+	background: #f2f2f2 url("../../Shared/Stylesheets/icons/18.png") no-repeat 3px 50%;
+	opacity: .7;
+	color: black;
+	padding: 3px;
+	padding-left: 25px;
+}
+
+#page-1 .step-2 img {
+	height: auto;
+    width: 100%;
+}
+
+#page-1 .step-3 img {
+	display: none;
+    height: auto;
+    width: 100%;
+}
+
+#page-1 .step-4 img {
+	display: none;
+	height: auto;
+    width: 100%;
+}
+
+#page-1 .step-5 img {
+	display: none;
+	height: auto;
+	width: 100%;
+}

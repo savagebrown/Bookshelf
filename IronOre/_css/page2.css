@@ -1,0 +1,187 @@
+#page-2 {
+	z-index: 3000;
+}
+
+#page-2 .page-text {
+
+}
+
+#page-2 .page-text h1 {
+
+}
+
+#page-2 .page-text p {
+
+}
+
+/* Page Steps */
+/*#page-2 .step-1,*/
+#page-2 .step-2,
+#page-2 .step-3,
+#page-2 .step-4,
+#page-2 .step-5,
+#page-2 .step-6  {
+	display: none;
+}
+
+#page-2 .step-1 {
+	border: 2px dashed #CCCCCC;
+    height: 230px;
+    left: 200px;
+    position: absolute;
+    top: 125px;
+    width: 415px;
+}
+
+#page-2 .image-caption {
+	background: none repeat scroll 0 0 lightgoldenrodyellow;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    left: 250px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 140px;
+}
+
+#page-2 .step-1 .ic-1 {
+	top: 89px;
+	display: none;
+}
+
+#page-2 .step-1 .ic-2 {
+	top: 139px;
+	display: none;
+}
+
+#page-2 .step-1 .ic-3 {
+	top: 187px;
+	display: none;
+}
+
+#page-2 .step-1 img {
+	height: 230px;
+}
+
+#page-2 .step-1 .laser-pointer {
+	display: none;
+	left: 110px;
+    position: absolute;
+    top: 37px;
+}
+
+#page-2 .step-1 .laser-pointer .pointer {
+	border: 3px solid red;
+    border-radius: 18px 18px 18px 18px;
+    height: 30px;
+    position: absolute;
+    width: 30px;
+}
+
+#page-2 .step-1 .laser-pointer .tail {
+	background: none repeat scroll 0 0 red;
+    height: 3px;
+    left: 34px;
+    position: relative;
+    top: 17px;
+    width: 107px;
+}
+
+#page-2 .step-1 .laser-pointer .caption {
+	background: none repeat scroll 0 0 red;
+    border-radius: 10px 10px 10px 10px;
+    color: white;
+    height: 24px;
+    left: 140px;
+    padding-left: 0;
+    padding-top: 6px;
+    position: relative;
+    text-align: center;
+    top: 1px;
+    width: 143px;
+    z-index: 9999;
+}
+
+#page-2 .step-2 .ic-1 {
+	top: 42px;
+	display: none;
+}
+
+#page-2 .step-2 .ic-2 {
+	top: 118px;
+	display: none;
+}
+
+#page-2 .step-2 {
+	border: 2px dashed #ccc;
+	width: 415px;
+	height: 230px;
+	position: absolute;
+	top: 245px;
+	left: 208px;
+}
+
+#page-2 .step-2 img {
+	width: 230px;
+}
+
+#page-2 .step-2 .laser-pointer {
+	position: absolute;
+	display: none;
+}
+
+#page-2 .step-2 .laser-pointer .pointer {
+	border: 3px solid red;
+    border-radius: 18px 18px 18px 18px;
+    height: 30px;
+    position: absolute;
+    width: 30px;
+}
+
+#page-2 .step-3 {
+	border: 2px dashed #ccc;
+	width: 415px;
+	height: 230px;
+	position: absolute;
+	top: 260px;
+	left: 0;
+}
+
+#page-2 .step-3 img {
+	width: 230px;
+	position: relative;
+}
+
+#page-2 .step-3 .img {
+	overflow: hidden;
+	position: absolute;
+}
+
+#page-2 .step-3 .ic-1 {
+	top: 80px;
+}
+
+#page-2 .step-4 {
+	border: 2px dashed #ccc;
+	width: 415px;
+	height: 230px;
+	position: absolute;
+	top: 245px;
+	left: 430px;
+}
+
+#page-2 .step-4 .ic-1 {
+	top: 95px
+}
+
+#page-2 .step-4 img {
+	position: absolute;
+    top: 33px;
+    width: 230px;
+}
+
+#page-2 .page-audio {
+
+}

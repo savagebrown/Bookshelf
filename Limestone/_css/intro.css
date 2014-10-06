@@ -1,0 +1,8 @@
+#page-intro {
+	z-index: 6000;
+}
+
+.slider {
+	height: 550px;
+	overflow: hidden;
+}

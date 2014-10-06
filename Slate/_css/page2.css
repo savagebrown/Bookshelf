@@ -1,0 +1,24 @@
+#page-2 {
+	z-index: 4000;
+}
+
+#page-2 .step-1 img {
+	left: 25px;
+    position: absolute;
+    width: 800px;
+}
+
+#p2a1 div{
+	display: none;
+	position: absolute;
+}
+
+#p2a1-1 { width: 160px; left: 730px; top: 40px;  padding-bottom: 20px; }
+#p2a1-2 { width: 125px; left: 440px; top: 70px;  padding-bottom: 50px; }
+#p2a1-3 { width: 175px; left: 410px; top: 105px; padding-bottom: 100px; }
+#p2a1-4 { width: 170px; left: 275px; top: 480px; padding-left: 100px; }
+#p2a1-5 { width: 200px; left: 220px; top: 260px; padding-bottom: 100px; }
+#p2a1-6 { width: 160px; left: 410px; top: 390px; padding-left: 50px; }
+#p2a1-7 { width: 160px; left: 490px; top: 310px; padding-left: 50px; }
+#p2a1-8 { width: 160px; left: 590px; top: 238px; padding-left: 50px; }
+#p2a1-9 { width: 160px; left: 600px; top: 125px; padding-bottom: 25px; }
